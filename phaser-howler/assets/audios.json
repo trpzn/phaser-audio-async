@@ -1,0 +1,28 @@
+{
+	"audiotypes": [".mp3",".ogg"],
+	"audiosource": "./audios/",
+	"files": [
+		"awareness00-intro",
+		"dim00-masterfight",
+		"dim01-master",
+		"dressdefense00-autumn",
+		"dressdefense01-spring",
+		"dressdefense02-summer",
+		"dressdefense03-welcome",
+		"dressdefense04-winter",
+		"dungeonfollowers-teaser",
+		"kchipun00-select_fighter",
+		"kchipun01-boss_handra",
+		"kchipun02-the_fighters",
+		"kchipun03-pascuense",
+		"kchipun04-pincoya",
+		"kchipun05-pingu",
+		"kchipun06-pinecity",
+		"kchipun07-themineguy",
+		"kchipun08-chinchi",
+		"kchipun09-credits",
+		"minesweeper00-intro",
+		"minesweeper01-gameplay",
+		"wavecaster00-gameplay"
+	]
+}
