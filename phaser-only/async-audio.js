@@ -16,7 +16,7 @@ var currIndex = -1;
 var logYPosition = 0;
 var logYSeparation = 2;
 var fontSize = 16;
-
+var x = 1;
 var currentTextLog;
 
 var timer = 0;
@@ -59,7 +59,7 @@ function startNextSong(){
 		return;
 	}
 	logYPosition += fontSize + logYSeparation;
-	
+
 	game.load.onLoadComplete.removeAll();
 	var audios = _getAudioFilesArray(audioFolder,songList[currIndex],tempjs.audiotypes);
 	game.load.audio(songList[currIndex],audios,false);
@@ -120,4 +120,3 @@ function update(){
 		startNextSong();
 	}
 }
-
